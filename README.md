@@ -1,56 +1,84 @@
-# DBMS Workshop - LJU
+# 🗄️ DBMS Workshop - LJU
 
-A collection of **DBMS (Database Management System)** practicals completed during the **Master of Computer Applications (MCA)** program at **Lok Jagruti University (LJU)**.
+> A comprehensive collection of **Database Management System (DBMS)** practicals completed during my **Master of Computer Applications (MCA)** at **Lok Jagruti University (LJU)**.
 
-Each practical contains a complete SQL implementation including:
+This repository contains all **Classwork** and **Homework** SQL programs completed during the **DBMS Workshop**. Each practical demonstrates real-world database design, SQL programming, relational database concepts, and report generation using **MySQL**.
 
-- Database Creation
-- Table Creation
-- Primary & Foreign Keys
-- Sample Data
-- SQL Queries
-- Reports
-- Professional Documentation
+Every project includes:
+
+- 📂 Database Creation
+- 🗃️ Table Creation
+- 🔑 Primary & Foreign Keys
+- 📥 Sample Data Insertion
+- 📊 SQL Queries & Reports
+- 📝 Well-Commented SQL Scripts
+- 💼 Portfolio-Ready Database Projects
 
 ---
 
-# Folder Structure
+# 📚 Course Information
+
+| Details | Information |
+|----------|-------------|
+| **Course** | Master of Computer Applications (MCA) |
+| **University** | Lok Jagruti University (LJU) |
+| **Workshop** | Database Management System (DBMS) Workshop |
+| **Language** | SQL |
+| **Database** | MySQL |
+| **Status** | ✅ Completed |
+
+---
+
+# 📂 Repository Structure
 
 ```text
 DBMS-Workshop-LJU/
 │
+├── README.md
+├── LICENSE
+├── .gitignore
+│
 ├── Day-1/
+│   ├── README.md
 │   ├── Classwork/
 │   │   └── StudentManagementSystem.sql
-│   │
 │   └── Homework/
 │       └── OrderManagementSystem.sql
 │
-├── Day-2/
+├── Day-2-and-Day-3/
+│   ├── README.md
 │   ├── Classwork/
-│   │   └── Hospital_Appointment_Management_System.sql
-│   │
+│   │   └── HospitalManagementSystem.sql
 │   └── Homework/
-│       └── CinemaMultiplexManagementSystem.sql
+│       └── CineStarMultiplexBookingSystem.sql
 │
-└── README.md
+└── Screenshots/
 ```
 
 ---
 
-# Day 1
+# 📅 Workshop Progress
 
-## Classwork
+| Day | Topics | Status |
+|------|--------|:------:|
+| Day 1 | Database Design, SQL Basics, Joins, Reports | ✅ Completed |
+| Day 2 & Day 3 | Advanced SQL, Business Case Studies, Real-World Database Projects | ✅ Completed |
 
-### Student Management System
+---
 
-Tables
+# 📖 Day-wise Projects
+
+## 📅 Day 1
+
+### 🎓 Classwork – Student Management System
+
+**Database Tables**
 
 - Student
 - Course
 - Enrollment
 
-Reports
+**Reports**
 
 - List of All Students
 - Courses Enrolled by Each Student
@@ -60,17 +88,15 @@ Reports
 
 ---
 
-## Homework
+### 📦 Homework – Order Management System
 
-### Order Management System
-
-Tables
+**Database Tables**
 
 - Customer
 - Product
 - Orders
 
-Reports
+**Reports**
 
 - Customer List
 - Product List
@@ -84,88 +110,181 @@ Reports
 
 ---
 
-# Day 2
+## 📅 Day 2 & Day 3
 
-## Classwork
+### 🏥 Classwork – Hospital Management System
 
-### Hospital Appointment Management System
-
-Tables
+**Database Tables**
 
 - Patient
 - Doctor
 - Appointment
 
-Reports
+**Reports**
 
 - Patient List
 - Doctor List
-- Appointment Details
+- Appointment Schedule
 - Patient Appointment History
 - Doctor-wise Appointment Count
-- Today's Appointments
-- Total Consultation Fees
-- Doctor Revenue Report
+- Total Revenue Generated
+- Senior Citizen Patients
+- Highest Consultation Fee
+- Monthly Appointment Report
 
 ---
 
-## Homework
+### 🎬 Homework – CineStar Multiplex Booking System
 
-### Cinema Multiplex Management System
-
-Tables
+**Database Tables**
 
 - Movie
 - Screen
-- MovieShow
-- Customer
 - Booking
 
-Reports
+**Reports**
 
-- Movie List
-- Screen Details
-- Movie Schedule
-- Booking Details
-- Total Revenue
+- Today's Show Schedule
+- Action Movies
+- Tickets Sold Per Movie
+- Available Seats
+- Revenue Per Screen
 - Most Watched Movie
-- Screen-wise Collection
-- Today's Revenue
-- Movie-wise Revenue
-- Screen Capacity
+- Customer Booking History
+- Screens Without Bookings
+- Daily Booking Summary
 
 ---
 
-# Technologies Used
+# 📚 SQL Concepts Covered
+
+## Database Design
+
+- Relational Database Design
+- Entity Relationships
+- Business Case Studies
+
+---
+
+## DDL Commands
+
+- CREATE DATABASE
+- CREATE TABLE
+- ALTER TABLE
+- DROP TABLE
+
+---
+
+## DML Commands
+
+- INSERT
+- UPDATE
+- DELETE
+
+---
+
+## DQL Commands
+
+- SELECT
+- WHERE
+- ORDER BY
+- GROUP BY
+- HAVING
+- LIMIT
+
+---
+
+## SQL Functions
+
+- COUNT()
+- SUM()
+- AVG()
+- MAX()
+- MIN()
+
+---
+
+## SQL Joins
+
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+
+---
+
+## Constraints
+
+- PRIMARY KEY
+- FOREIGN KEY
+- NOT NULL
+
+---
+
+# 💻 Technologies Used
 
 - MySQL
 - SQL
-- Relational Database Management System (RDBMS)
+- MySQL Workbench
+- Visual Studio Code
+- Git
+- GitHub
 
 ---
 
-# Course Information
+# 🎯 Learning Outcomes
 
-| Details | Information |
-|----------|-------------|
-| Course | Master of Computer Applications (MCA) |
-| University | Lok Jagruti University (LJU) |
-| Subject | Database Management System (DBMS) |
-| Language | SQL |
-| Database | MySQL |
+Throughout this workshop, I learned to:
 
----
-
-# Author
-
-**Mohmadhusen Khimani**
-
-MCA Student  
-Lok Jagruti University (LJU)
-
-GitHub:
-https://github.com/mohmadhusenkhimani
+- Design relational databases
+- Create normalized database tables
+- Define Primary & Foreign Keys
+- Insert and manage records
+- Write SQL queries for business reports
+- Perform joins across multiple tables
+- Use aggregate functions
+- Develop real-world database applications
 
 ---
 
-⭐ If you found this repository helpful, consider giving it a Star.
+# 👨‍💻 Author
+
+## Mohmadhusen Khimani
+
+**Master of Computer Applications (MCA)**
+
+🏫 Lok Jagruti University (LJU)
+
+💻 MERN Stack Developer | AI & Machine Learning Enthusiast | Data Science Learner
+
+🔗 GitHub: https://github.com/mohmadhusenkhimani
+
+---
+
+# ⭐ Repository Highlights
+
+- 📂 Organized Folder Structure
+- 🗄️ Real-World Database Projects
+- 📝 Well-Documented SQL Scripts
+- 📊 Business-Oriented SQL Reports
+- 🎓 MCA Workshop Practicals
+- 💼 Portfolio Ready
+- 🚀 Beginner Friendly
+- 📚 Useful for SQL Learning & Interview Preparation
+
+---
+
+# 📜 License
+
+This repository is created for educational purposes as part of the **Database Management System (DBMS) Workshop** completed during the **Master of Computer Applications (MCA)** program at **Lok Jagruti University (LJU)**.
+
+---
+
+# 🎉 Workshop Completed
+
+**Status:** ✅ Completed
+
+This repository represents my complete DBMS workshop practicals, showcasing database design, SQL programming, and real-world business applications using MySQL.
+
+If you found this repository helpful, consider giving it a **⭐ Star** on GitHub.
+
+**Happy Querying! 🚀**
